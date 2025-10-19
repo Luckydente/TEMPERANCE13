@@ -187,7 +187,7 @@ SUBSYSTEM_DEF(ticker)
 					++totalPlayersReady
 			
 			if(!gamemode_voted)
-				SSvote.initiate_vote("storyteller", "Psydon", timeLeft/2)
+				SSvote.initiate_vote("storyteller", "Venerable-Master Rab", timeLeft/2)
 				gamemode_voted = TRUE
 
 			if(start_immediately)
