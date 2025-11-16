@@ -72,6 +72,7 @@
 		/obj/item/reagent_containers/glass/bottle/rogue/healthpotnew = 2,
 		/obj/item/ammo_box/handfuls/rifle = 4,
 		/obj/item/storage/belt/rogue/pouch/coins/poor,
+		/obj/item/gasgrenade = 2,
 	)
 	H.adjust_skillrank(/datum/skill/misc/medicine, 4, TRUE)
 	H.adjust_skillrank(/datum/skill/combat/wrestling, 2, TRUE)
@@ -106,6 +107,7 @@
 		/obj/item/ammo_box/handfuls/rifle = 4,
 		/obj/item/natural/bundle/stick = 2,
 		/obj/item/storage/belt/rogue/pouch/coins/poor,
+		/obj/item/smokegrenade = 2,
 	)
 	H.adjust_skillrank(/datum/skill/combat/wrestling, 2, TRUE)
 	H.adjust_skillrank(/datum/skill/craft/crafting, 3, TRUE)

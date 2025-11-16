@@ -30,6 +30,7 @@
 	locked = FALSE
 	categories = list(
 		"AMMUNITION",
+		"GRENADES",
 	)
 	categories_gamer = list()
 	icon_state = "ammovend_s"

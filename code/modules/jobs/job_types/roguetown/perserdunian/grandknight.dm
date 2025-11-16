@@ -58,6 +58,8 @@
 	backpack_contents = list(
 		/obj/item/rogueweapon/huntingknife/idagger/steel,
 		/obj/item/storage/belt/rogue/pouch/coins/rich,
+		/obj/item/gasgrenade,
+		/obj/item/grenade,
 	)
 	H.adjust_skillrank(/datum/skill/combat/wrestling, 4, TRUE) //test 2 see if it's broken
 	H.adjust_skillrank(/datum/skill/craft/crafting, 3, TRUE)

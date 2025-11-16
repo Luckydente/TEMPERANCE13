@@ -54,6 +54,7 @@
 		/obj/item/rogueweapon/huntingknife/idagger/steel,
 		/obj/item/gun/ballistic/rifle/repeater/pistol,
 		/obj/item/storage/belt/rogue/pouch/coins/poor,
+		/obj/item/smokegrenade = 2,
 	)
 	H.adjust_skillrank(/datum/skill/combat/wrestling, 2, TRUE)
 	H.adjust_skillrank(/datum/skill/craft/crafting, 3, TRUE)

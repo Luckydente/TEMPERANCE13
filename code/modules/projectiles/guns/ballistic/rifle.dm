@@ -11,7 +11,7 @@
 	w_class = WEIGHT_CLASS_BULKY
 	slowdown = 0.5
 	spread = 0
-	force = 15 //Decent clubs generally speaking
+	force = 15
 	flags_1 =  CONDUCT_1
 	casing_ejector = FALSE
 	var/recentpump = 0 // to prevent spammage
