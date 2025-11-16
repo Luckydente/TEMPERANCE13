@@ -135,6 +135,27 @@
 /datum/effect_system/smoke_spread/bad
 	effect_type = /obj/effect/particle_effect/smoke/bad
 
+
+
+/////////////////////////////////////////////
+// Poison gas
+/////////////////////////////////////////////
+
+/obj/effect/particle_effect/smoke/poison_gas
+	color = "#666244"
+	lifetime = 10
+
+/obj/effect/particle_effect/smoke/poison_gas/smoke_mob(mob/living/carbon/M)
+	if(..())
+		if(!istype(M.wear_mask, /obj/item/clothing/mask/rogue/gasmask))
+			M.adjustToxLoss(20, 0)
+			M.adjustFireLoss(20, 0)
+			M.emote("firescream")
+		return 1
+
+/datum/effect_system/smoke_spread/poison_gas
+	effect_type = /obj/effect/particle_effect/smoke/poison_gas
+
 /////////////////////////////////////////////
 // Sleep smoke
 /////////////////////////////////////////////

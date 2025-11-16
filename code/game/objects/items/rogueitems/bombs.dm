@@ -111,7 +111,7 @@
     if (!T) return
     playsound(src.loc, 'sound/items/smokebomb.ogg', 50)
     var/radius = 3
-    var/datum/effect_system/smoke_spread/S = new /datum/effect_system/smoke_spread
+    var/datum/effect_system/smoke_spread/poison_gas/S = new /datum/effect_system/smoke_spread/poison_gas
     S.set_up(radius, T)
     S.start()
     new /obj/item/ash(T)
