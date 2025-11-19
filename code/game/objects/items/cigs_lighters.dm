@@ -328,14 +328,14 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 
 /obj/item/clothing/mask/cigarette/rollie
 	name = "zig"
-	desc = "Dried westleach carefully wrapped in fine paper for a soothing flavor."
+	desc = "Manufactured (or rolled) nicotine. Usually man-made."
 	icon_state = "spliffoff"
 	icon_on = "spliffon"
 	icon_off = "spliffoff"
 	type_butt = /obj/item/cigbutt/roach
 	throw_speed = 0.5
 	item_state = "spliffoff"
-	smoketime = 120 // four minutes
+	smoketime = 450 // 15 minutes
 	chem_volume = 50
 	list_reagents = null
 	muteinmouth = FALSE
