@@ -1,5 +1,5 @@
 /area/rogue/indoors/perserdunbase
-	name = "perserdun indoors"
+	name = "outpost xiphos"
 	icon_state = "town"
 	droning_sound = 'sound/music/area/interior.ogg'
 	droning_sound_dusk = 'sound/music/area/morning.ogg'

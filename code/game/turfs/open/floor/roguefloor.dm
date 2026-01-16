@@ -773,10 +773,7 @@
 						/turf/open/floor/rogue/grasscold,
 						/turf/open/floor/rogue/snowpatchy,
 						/turf/open/floor/rogue/snow,
-						/turf/open/floor/rogue/snowrough,
-						/turf/open/floor/rogue/warfloor1,
-						/turf/open/floor/rogue/warfloor2,
-						/turf/open/floor/rogue/warfloor3)
+						/turf/open/floor/rogue/snowrough,)
 
 /turf/open/floor/rogue/blocks/Initialize()
 	. = ..()

@@ -98,6 +98,13 @@ GLOBAL_LIST_INIT(roguetown_areas_typecache, typecacheof(/area/rogue/indoors/town
 	soundenv = 16
 
 
+/area/rogue/outdoors/perserdun
+	name = "no mans land"
+	droning_sound = 'sound/music/area/outdoors.ogg'
+	droning_sound_dusk = 'sound/music/area/morning.ogg'
+	droning_sound_night = 'sound/music/area/unnerving.ogg'
+
+
 /area/rogue/outdoors/banditcamp
 	name = "bandit camp outdoors"
 	droning_sound = 'sound/music/area/banditcamp.ogg'

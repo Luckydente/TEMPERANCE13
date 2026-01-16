@@ -36,6 +36,7 @@
 	faction = list("undead")
 	footstep_type = FOOTSTEP_MOB_HEAVY
 	del_on_death = FALSE
+	pixel_x = -16
 
 	can_have_ai = FALSE
 	AIStatus = AI_OFF
@@ -85,7 +86,7 @@
 	ai_controller = /datum/ai_controller/stranger
 
 /mob/living/simple_animal/hostile/rogue/robot/gunner/shotgun
-	name = "STRANGER"
+	name = "IMITATION"
 	desc = "A hulking, mechanical beast. It doesn't seem too happy to see you."
 	icon = 'icons/roguetown/mob/robots/mech_infantry.dmi'
 	icon_state = "shotgunknight"
@@ -137,6 +138,7 @@
 	ai_controller = /datum/ai_controller/stranger
 	maxHealth = 1300
 	health = 1300
+
 
 /mob/living/simple_animal/hostile/rogue/robot/get_sound(input)
 	switch(input)

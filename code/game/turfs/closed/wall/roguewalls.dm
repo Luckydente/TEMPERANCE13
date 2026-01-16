@@ -744,8 +744,8 @@
 	sheet_type = /obj/item/natural/stone
 	break_sound = 'sound/combat/hits/onstone/stonedeath.ogg'
 	attacked_sound = list('sound/combat/hits/onstone/wallhit.ogg', 'sound/combat/hits/onstone/wallhit2.ogg', 'sound/combat/hits/onstone/wallhit3.ogg')
-	above_floor = /turf/open/floor/rogue/rooftop //change once the sprites are done
-	baseturfs = list(/turf/open/floor/rogue/ruinedwood) // change once the sprites are done
+	above_floor = /turf/open/floor/rogue/perdun
+	baseturfs = list(/turf/open/floor/rogue/perdun)
 	neighborlay = "dirtedge"
 	climbdiff = 3
 
