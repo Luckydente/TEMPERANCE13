@@ -3197,6 +3197,12 @@
 "Bs" = (
 /turf/closed/wall/mineral/rogue/risvon/end/north,
 /area/rogue/indoors/risvonbase)
+"Bu" = (
+/obj/structure/roguemachine/mail/l{
+	mailtag = "RISVON CONSULO"
+	},
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/rogue/indoors/risvonbase)
 "Bv" = (
 /obj/structure/closet/crate/roguecloset/dark,
 /obj/item/clothing/cloak/lordcloak,
@@ -6174,6 +6180,12 @@
 /mob/living/simple_animal/hostile/rogue/mirespider_lurker,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
+"Yf" = (
+/obj/structure/roguemachine/mail/l{
+	mailtag = "RISVON COMMANDANT"
+	},
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/rogue/indoors/risvonbase)
 "Yh" = (
 /obj/structure/table/wood/large_table/north_west,
 /obj/item/reagent_containers/glass/cup/steel,
@@ -10939,7 +10951,7 @@ vW
 zM
 Tx
 Ya
-Eq
+Yf
 hf
 Eq
 XJ
@@ -11979,7 +11991,7 @@ Rh
 lA
 Tx
 yu
-Eq
+Bu
 so
 Eq
 Dm

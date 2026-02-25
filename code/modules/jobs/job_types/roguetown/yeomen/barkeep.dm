@@ -3,12 +3,12 @@
 	flag = BARKEEP
 	department_flag = YEOMEN
 	faction = "Station"
-	total_positions = 0
-	spawn_positions = 0
+	total_positions = 1
+	spawn_positions = 1
 
 	allowed_races = RACES_ALL_KINDS
 
-	tutorial = "Adventurers and warriors alike have two exit plans; the early grave or even earlier retirement. As the proud owner of this fine establishment, you took the latter: The Azurian Pint, tavern, inn, and bathhouse! You even have an assortment of staff to help you, and plenty of business from the famished townsfolk looking to eat, weary travelers looking to rest, and characters of dubious repute seeking their own sort of success. Your bladework has gotten a little rusty, and the church across the street gives you the odd evil eye for the extra 'delights' of the bathhouse--but, well...you can't win 'em all!"
+	tutorial = "Adventurers, soldiers - even the regular townsfolk. You're both the bartender and the cook. So, let's make some money."
 
 	outfit = /datum/outfit/job/roguetown/barkeep
 	give_bank_account = 43
@@ -55,7 +55,7 @@
 		/obj/item/recipe_book/survival,
 		/obj/item/bottle_kit
 	)
-	H.change_stat("strength", 1) ///7 points (weighted)
+	H.change_stat("strength", 1)
 	H.change_stat("endurance", 1)
 	H.change_stat("constitution", 1)
 	H.change_stat("intelligence", 1)

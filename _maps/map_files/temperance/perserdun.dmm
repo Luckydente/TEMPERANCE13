@@ -596,6 +596,12 @@
 	},
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/perserdunbase)
+"hD" = (
+/obj/structure/roguemachine/mail/l{
+	mailtag = "PERSERDUN ENVOY"
+	},
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/rogue/indoors/perserdunbase)
 "hE" = (
 /obj/effect/landmark/start/chirurgeon,
 /obj/effect/decal/cleanable/dirt/grime/dust,
@@ -849,6 +855,14 @@
 /area/rogue/outdoors/indoors/persunbaseoutlook)
 "ld" = (
 /turf/closed/wall/mineral/rogue/perserdun/end,
+/area/rogue/indoors/perserdunbase)
+"lg" = (
+/obj/effect/decal/carpet/square/black{
+	dir = 8;
+	pixel_y = 16;
+	pixel_x = -11
+	},
+/turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/perserdunbase)
 "lA" = (
 /obj/structure/fluff/walldeco/chains,
@@ -2917,6 +2931,12 @@
 	pixel_x = -6
 	},
 /turf/open/floor/carpet/royalblack,
+/area/rogue/indoors/perserdunbase)
+"OY" = (
+/obj/structure/roguemachine/mail/r{
+	mailtag = "PERSERDUN GRANDMASTER"
+	},
+/turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/perserdunbase)
 "Pa" = (
 /obj/structure/barbedwire{
@@ -14317,8 +14337,8 @@ Od
 eG
 Sy
 vt
-Sy
-Sy
+hD
+lg
 Qd
 rT
 nT
@@ -16635,7 +16655,7 @@ bn
 VN
 Qd
 Da
-Sy
+OY
 Sy
 sV
 Sy
