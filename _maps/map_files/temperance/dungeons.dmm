@@ -1383,7 +1383,7 @@
 /area/rogue/under/cave/warmachine)
 "vG" = (
 /obj/structure/bars/passage/steel{
-	redstone_id = sd
+	redstone_id = "umaend"
 	},
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/umamusume)
@@ -2136,7 +2136,7 @@
 /area/rogue/under/cave/warmachine)
 "IW" = (
 /obj/structure/bars/passage/steel{
-	redstone_id = sd
+	redstone_id = "umaend"
 	},
 /obj/structure/fluff/railing/border/east{
 	dir = 8
