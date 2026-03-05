@@ -160,10 +160,10 @@
 /obj/item/rogueweapon/stoneaxe/oath
 	force = 30
 	force_wielded = 40
-	possible_item_intents = list(/datum/intent/axe/cut/battle, /datum/intent/axe/chop/battle, /datum/intent/axe/bash)
+	possible_item_intents = list(/datum/intent/axe/cut/battle, /datum/intent/axe/chop/battle, /datum/intent/axe/bash, /datum/intent/spear/thrust/lance)
 	name = "WILL"
-	desc = "A freakish sword carved out of the walls ripped from broken LOVE MACHINES. Crush the Ziggurate."
-	icon_state = "exe" //i know it's a sword. it just looks better than oath or w/e
+	desc = "A standard poleaxe adorned with Perserdun's colors. Crush the Ziggurate."
+	icon_state = "poleaxe"
 	icon = 'icons/roguetown/weapons/64.dmi'
 	max_blade_int = 500
 	dropshrink = 0.75
