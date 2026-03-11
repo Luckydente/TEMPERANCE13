@@ -51,8 +51,6 @@
 	H.change_stat("perception", 2)
 	H.change_stat("speed", 2)
 	ADD_TRAIT(H, TRAIT_HEAVYARMOR, TRAIT_GENERIC)
-	ADD_TRAIT(H, TRAIT_BREADY, TRAIT_GENERIC)
-	ADD_TRAIT(H, TRAIT_NOPAINSTUN, TRAIT_GENERIC)
 
 
 /datum/job/roguetown/bulwark/after_spawn(mob/living/L, mob/M, latejoin = TRUE)

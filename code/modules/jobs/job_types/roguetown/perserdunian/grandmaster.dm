@@ -77,7 +77,6 @@
 	H.change_stat("perception", 2)
 	H.change_stat("speed", 1)
 	ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
-	ADD_TRAIT(H, TRAIT_BREADY, TRAIT_GENERIC)
 
 GLOBAL_VAR_INIT(grandmaster_raid_cooldown, -50000) // Antispam
 
