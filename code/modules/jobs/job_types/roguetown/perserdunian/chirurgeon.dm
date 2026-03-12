@@ -68,3 +68,5 @@
 	H.change_stat("perception", 3)
 	H.change_stat("intelligence", 3)
 	H.change_stat("speed", 2)
+	if(H.mind)
+		H.mind.AddSpell(new /obj/effect/proc_holder/spell/invoked/diagnose/secular)

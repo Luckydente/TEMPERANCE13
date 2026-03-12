@@ -10,9 +10,9 @@
 	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED)
 
 	tutorial = "You are a supporter of Perserdun's war effort. \
-				Whenever you are a leech or an ingeniare, you still carry a gun and know how to use it.\
+				Specifically - you're a Leech, which is a type of medicineman. You still carry a gun and know how to use it.\
 				You've been granted a cloth to apply to your helmet in order to help identify what you are.\
-				Red is for Ingenaires, Blue is for Leeches. It's mandatory for you to wear this." 
+				Blue is for Leeches, which is what you are. It's mandatory for you to wear this." 
 
 	outfit = /datum/outfit/job/roguetown/auxiliarist
 	display_order = JDO_AUXILIARIST
@@ -74,4 +74,6 @@
 	H.change_stat("perception", 3)
 	H.change_stat("intelligence", 3)
 	H.change_stat("speed", 2)
+	if(H.mind)
+		H.mind.AddSpell(new /obj/effect/proc_holder/spell/invoked/diagnose/secular)
 	ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
