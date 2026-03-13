@@ -20,7 +20,7 @@
 		if(THEY_THEM_F)
 			return "person"
 		else
-			return "creacher"
+			return "creature"
 
 /datum/mob_descriptor/stature/gentleman
 	name = "Gentleman/Gentlewoman"

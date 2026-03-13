@@ -77,7 +77,7 @@
 	contains = list(/obj/item/rogueweapon/woodstaff)
 
 /datum/supply_pack/rogue/adventure_supplies/lamptern
-	name = "Lamptern"
+	name = "Lantern"
 	cost = 15
 	contains = list(/obj/item/flashlight/flare/torch/lantern)
 
