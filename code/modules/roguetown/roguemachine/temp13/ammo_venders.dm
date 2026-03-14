@@ -35,6 +35,15 @@
 	categories = list(
 		"AMMUNITION",
 		"GRENADES",
+		"Adventuring Supplies",
+		"Armor (Light)",
+		"Armor (Iron)",
+		"FORTIFICATIONS",
+		"Weapons (Iron and Shields)",
+		"Weapons (Ranged)", // only sells crossbows and bows, not actual guns.
+		"Tools",
+		"Wardrobe",
+		"Apparel",
 	)
 	categories_gamer = list()
 	icon_state = "ammovend_s"
