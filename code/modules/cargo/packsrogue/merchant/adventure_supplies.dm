@@ -113,16 +113,16 @@
 					/obj/item/storage/backpack/rogue/satchel/chestrig,
 				)
 
-/datum/supply_pack/rogue/adventure_supplies/Persermask
-	name = "Perser Gas Mask"
+/datum/supply_pack/rogue/adventure_supplies/OldMask
+	name = "Old Gas Mask"
 	cost = 30
 	contains = list(
-					/obj/item/clothing/mask/rogue/gasmask/perserdunmask
+					/obj/item/clothing/mask/rogue/gasmask/eb_gasmask
 				)
 
-/datum/supply_pack/rogue/adventure_supplies/Rismask
-	name = "Risvon Gas Mask"
-	cost = 30
+/datum/supply_pack/rogue/adventure_supplies/zigbox
+	name = "Zigbox"
+	cost = 12
 	contains = list(
-					/obj/item/clothing/mask/rogue/gasmask/risvonmask
+					/obj/item/quiver/zigs/nicotine
 				)

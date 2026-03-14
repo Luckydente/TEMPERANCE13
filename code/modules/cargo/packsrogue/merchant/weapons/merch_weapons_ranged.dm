@@ -3,31 +3,6 @@
 	crate_name = "merchant guild's crate"
 	crate_type = /obj/structure/closet/crate/chest/merchant
 
-/datum/supply_pack/rogue/ranged_weapons/tossbladeiron
-	name = "Tossblade Belt, Iron"
-	cost = 25
-	contains = list(/obj/item/storage/belt/rogue/leather/knifebelt/black/iron)
-
-/datum/supply_pack/rogue/ranged_weapons/tossbladesteel
-	name = "Tossblade Belt, Steel"
-	cost = 35
-	contains = list(/obj/item/storage/belt/rogue/leather/knifebelt/black/steel)
-
-/datum/supply_pack/rogue/ranged_weapons/javeliniron
-	name = "Javelins, Iron"
-	cost = 20 // 2 Iron Ingots
-	contains = list(/obj/item/quiver/javelin/iron)
-
-/datum/supply_pack/rogue/ranged_weapons/javelinsteel
-	name = "Javelins, Steel"
-	cost = 60 // 2 Steel Ingots + Small Log
-	contains = list(/obj/item/quiver/javelin/steel)
-
-/datum/supply_pack/rogue/ranged_weapons/hurlbat
-	name = "Hurlbat"
-	cost = 40 // 1 Steel Ingot, but a pretty strong weapon. 
-	contains = list(/obj/item/rogueweapon/stoneaxe/hurlbat)
-
 /datum/supply_pack/rogue/ranged_weapons/mondragon
 	name = "Mondragon Rifle"
 	cost = 130
@@ -68,31 +43,6 @@
 	cost = 185 // T3 weapon
 	contains = list(
 					/obj/item/gun/ballistic/rifle/reaper,
-				)
-
-/datum/supply_pack/rogue/ranged_weapons/HarlandPistol
-	name = "Harland Pistol"
-	cost = 80 // shitty bolt-action pistol
-	contains = list(
-					/obj/item/gun/ballistic/rifle/repeater/pistol,
-				)
-
-/datum/supply_pack/rogue/ranged_weapons/PerserdunRifle
-	name = "SKT Order"
-	cost = 100
-	contains = list(
-					/obj/item/gun/ballistic/rifle/repeater/perserdun,
-				)
-
-/datum/supply_pack/rogue/ranged_weapons/bottlebombs
-	name = "Bottle Bomb"
-	cost = 40
-	contains = list(
-					/obj/item/bomb,
-					/obj/item/bomb,
-					/obj/item/bomb,
-					/obj/item/bomb,
-					/obj/item/bomb
 				)
 
 /datum/supply_pack/rogue/ranged_weapons/net

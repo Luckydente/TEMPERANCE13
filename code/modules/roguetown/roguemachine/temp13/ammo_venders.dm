@@ -37,16 +37,8 @@
 		"GRENADES",
 		"Adventuring Supplies",
 		"Armor (Light)",
-		"Armor (Iron)",
 		"FORTIFICATIONS",
-		"Weapons (Iron and Shields)",
 		"Weapons (Ranged)",
-		"Tools",
-		"Wardrobe",
-		"Apparel",
-		"Luxury",
-		"Weapons (Foreign)",
-		"Potions",
 	)
 	categories_gamer = list()
 	icon_state = "ammovend_s"
