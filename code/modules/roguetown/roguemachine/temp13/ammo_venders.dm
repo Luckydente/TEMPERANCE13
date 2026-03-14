@@ -40,10 +40,13 @@
 		"Armor (Iron)",
 		"FORTIFICATIONS",
 		"Weapons (Iron and Shields)",
-		"Weapons (Ranged)", // only sells crossbows and bows, not actual guns.
+		"Weapons (Ranged)",
 		"Tools",
 		"Wardrobe",
 		"Apparel",
+		"Luxury",
+		"Weapons (Foreign)",
+		"Potions",
 	)
 	categories_gamer = list()
 	icon_state = "ammovend_s"
