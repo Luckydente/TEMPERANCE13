@@ -2693,10 +2693,10 @@
 /area/rogue/outdoors/town)
 "su" = (
 /mob/living/simple_animal/hostile/retaliate/rogue/wolf{
-	name = "volf alpha";
+	name = "wolf alpha";
 	color = "#808080";
 	health = 350;
-	desc = "A snarling beast that serves as the alpha of a volf den. Sharp claws and even sharper teeth, this is a proper foe.";
+	desc = "A snarling beast that serves as the alpha of a wolf den. Sharp claws and even sharper teeth, this is a proper foe.";
 	melee_damage_lower = 29;
 	melee_damage_upper = 40
 	},
