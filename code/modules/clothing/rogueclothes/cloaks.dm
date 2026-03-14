@@ -1299,8 +1299,8 @@
 	flags_inv = HIDECROTCH|HIDEBOOB
 
 /obj/item/clothing/cloak/volfmantle
-	name = "volf mantle"
-	desc = "A warm cloak made using the hide and head of a slain volf. A status symbol if ever there was one."
+	name = "Wolf mantle"
+	desc = "A warm cloak made using the hide and head of a slain wolf. A status symbol if ever there was one."
 	color = null
 	icon_state = "volfpelt"
 	item_state = "volfpelt"
