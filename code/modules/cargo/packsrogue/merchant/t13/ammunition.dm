@@ -65,7 +65,7 @@
 
 /datum/supply_pack/rogue/ranged_weapons/JackalAmmo
 	name = "Jackal Ammo"
-	cost = 25
+	cost = 40
 	contains = list(
 					/obj/item/ammo_box/magazine/jackal,
 				)
