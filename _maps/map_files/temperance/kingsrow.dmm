@@ -1332,7 +1332,7 @@
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/beach/forest/south)
 "hV" = (
-/obj/structure/bookcase/random/religion,
+/obj/structure/rack/rogue/shelf/biggest,
 /turf/open/floor/rogue/blocks/flipped,
 /area/rogue/indoors/shelter/town)
 "hW" = (
@@ -2101,7 +2101,7 @@
 /turf/open/floor/carpet/red,
 /area/rogue/outdoors)
 "oj" = (
-/obj/structure/bookcase/random/nonfiction,
+/obj/structure/rack/rogue/shelf/biggest,
 /turf/open/floor/rogue/blocks,
 /area/rogue/indoors/shelter/town)
 "ok" = (
@@ -3086,10 +3086,6 @@
 /mob/living/simple_animal/hostile/rogue/skeleton/axe,
 /turf/open/floor/rogue/cobble,
 /area/rogue/outdoors/beach/forest/south)
-"uR" = (
-/obj/structure/bookcase/random/reference,
-/turf/open/floor/rogue/blocks/flipped,
-/area/rogue/indoors/shelter/town)
 "uS" = (
 /obj/structure/mineral_door/wood/fancy{
 	lockid = "merchant"
@@ -4205,7 +4201,7 @@
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/shelter/town)
 "Cl" = (
-/obj/structure/bookcase/random/archive,
+/obj/structure/rack/rogue/shelf/biggest,
 /turf/open/floor/rogue/blocks{
 	dir = 1
 	},
@@ -5924,10 +5920,6 @@
 	pixel_y = 0
 	},
 /turf/open/floor/rogue/brown,
-/area/rogue/indoors/shelter/town)
-"Nw" = (
-/obj/structure/bookcase/random/fiction,
-/turf/open/floor/rogue/blocks/flipped,
 /area/rogue/indoors/shelter/town)
 "Nx" = (
 /obj/structure/mineral_door/wood{
@@ -22540,7 +22532,7 @@ jm
 jm
 jm
 uf
-Nw
+hV
 ar
 fN
 Oo
@@ -23221,7 +23213,7 @@ jm
 jm
 jm
 uf
-uR
+hV
 Xh
 JJ
 EG
