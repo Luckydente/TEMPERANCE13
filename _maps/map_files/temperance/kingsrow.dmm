@@ -1234,9 +1234,9 @@
 /turf/open/floor/rogue/brown,
 /area/rogue/indoors/shelter/town)
 "hi" = (
-/obj/item/reagent_containers/food/snacks/deadmouse,
+/obj/structure/fluff/statue/femalestatue2,
 /turf/open/floor/rogue/dirt,
-/area/rogue/outdoors/beach/forest/south)
+/area/rogue/outdoors)
 "hj" = (
 /obj/item/reagent_containers/food/snacks/egg,
 /obj/item/reagent_containers/food/snacks/egg,
@@ -1528,10 +1528,6 @@
 "jm" = (
 /turf/closed/mineral/rogue/bedrock,
 /area/rogue)
-"jn" = (
-/obj/item/reagent_containers/food/snacks/deadmouse,
-/turf/open/floor/rogue/cobble,
-/area/rogue/outdoors/beach/forest/south)
 "jq" = (
 /obj/structure/fluff/railing/corner,
 /obj/structure/flora/roguegrass,
@@ -6159,10 +6155,6 @@
 /obj/structure/fluff/walldeco/chains,
 /turf/open/floor/rogue/brown,
 /area/rogue/indoors/shelter/town)
-"OV" = (
-/obj/item/reagent_containers/food/snacks/deadmouse,
-/turf/open/floor/rogue/cobble,
-/area/rogue/outdoors)
 "OW" = (
 /obj/structure/fluff/railing/border,
 /obj/structure/fluff/railing/border{
@@ -65076,7 +65068,7 @@ xP
 xP
 Hf
 Hf
-hi
+xP
 Hf
 Hf
 Hf
@@ -69037,7 +69029,7 @@ tn
 tn
 tn
 tn
-hi
+xP
 xP
 tn
 tn
@@ -80595,7 +80587,7 @@ xP
 xP
 xP
 QI
-jn
+QI
 QI
 Xp
 xP
@@ -90604,7 +90596,7 @@ xP
 xP
 Xp
 QI
-jn
+QI
 EL
 tn
 Xp
@@ -94318,7 +94310,7 @@ ej
 xK
 SL
 xK
-OV
+SL
 SL
 SL
 ej
@@ -95449,14 +95441,14 @@ wb
 ej
 wK
 ej
-ej
-ej
+vF
+Ka
 wK
 ej
 ej
-wK
-ej
-wK
+Ka
+Ka
+vF
 wK
 SL
 SL
@@ -95679,11 +95671,11 @@ ej
 RH
 RH
 ej
+RH
 ej
-ej
-ej
-ej
-ej
+RH
+RH
+RH
 ej
 ej
 wK
@@ -95904,13 +95896,13 @@ wK
 fZ
 wK
 RH
-wK
+hi
 ej
 ej
 ej
 ej
 RH
-RH
+wb
 ej
 wK
 wK
@@ -96357,7 +96349,7 @@ wb
 fZ
 OP
 ej
-ej
+wb
 ej
 wK
 ej
@@ -96584,12 +96576,12 @@ wb
 ej
 wK
 ej
-wK
+vF
 wK
 wK
 ej
 ej
-ej
+RH
 wK
 ej
 ej
