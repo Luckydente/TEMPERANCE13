@@ -19,6 +19,7 @@
 	var/ground = 0 
 	var/max_ground = 2 //how many dirtclods a shovel can hold at once
 	var/working = 0
+	var/folded = FALSE
 	smeltresult = /obj/item/ingot/iron
 	max_blade_int = 50
 	grid_width = 32
@@ -41,6 +42,8 @@
 /obj/item/rogueweapon/shovel/update_icon()
 	if(heldclod)
 		icon_state = "dirt[initial(icon_state)]"
+	else if(folded)
+		icon_state = "[initial(icon_state)]_fold"
 	else
 		icon_state = "[initial(icon_state)]"
 
@@ -172,6 +175,33 @@
 	max_blade_int = 0
 	smeltresult = null
 	grid_height = 64
+
+/obj/item/rogueweapon/shovel/small/etool
+	force = 10
+	name = "etool"
+	desc = "Arguably, a tool of war."
+	icon_state = "etool"
+	max_blade_int = 50
+	smeltresult = /obj/item/ingot/iron
+
+/obj/item/rogueweapon/shovel/small/etool/attack_self(mob/living/user) // hi its manny. potentially shitcode. idc
+	if(src.heldclod)
+		return
+	if(src.folded)
+		src.folded = FALSE
+		src.possible_item_intents = list(/datum/intent/shovelscoop, /datum/intent/mace/strike/shovel)
+		user.update_a_intents()
+		src.grid_height = 64
+		src.w_class = WEIGHT_CLASS_NORMAL
+		update_icon(src)
+	else
+		src.folded = TRUE
+		src.possible_item_intents = list(/datum/intent/mace/strike/shovel)
+		user.update_a_intents()
+		src.grid_height = 32
+		src.w_class = WEIGHT_CLASS_SMALL
+		update_icon(src)
+
 
 /obj/item/rogueweapon/shovel/aalloy
 	force = 8
