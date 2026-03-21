@@ -22,7 +22,7 @@
 	associated_skill = /datum/skill/combat/polearms
 	blade_dulling = DULLING_SHAFT_WOOD
 	charge = TRUE
-	ability_type = ABILITY_ON_ATTACK
+	ability_type = ABILITY_ON_ACTIVATION
 	charge_cost = 20
 	charge_effect = "release a finisher move, targetting multiple people."
 	successfull_activation = "You release your gathered blood!"
