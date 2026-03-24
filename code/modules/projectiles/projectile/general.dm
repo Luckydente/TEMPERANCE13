@@ -53,3 +53,14 @@
 		damage -= tile_dropoff
 	if(damage < 0)
 		qdel(src)
+
+//hmg
+/obj/projectile/bullet/a762x59
+	name = "7.62x59mm bullet"
+	damage = 70
+	armor_penetration = 10
+
+/obj/projectile/bullet/a303
+	name = ".303 bullet"
+	damage = 50
+	armor_penetration = 30

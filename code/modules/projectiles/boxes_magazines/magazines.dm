@@ -17,3 +17,31 @@
 	max_ammo = 7
 	multiload = 1
 	icon_state = "handgunmag"
+
+
+//hmg 
+
+/obj/item/ammo_box/magazine/hmg
+	name = "heavy machinegun magazine"
+	multiple_sprites = AMMO_BOX_FULL_EMPTY
+	max_ammo = 50
+	multiload = 1
+	icon_state = "hmg-magazine"
+
+/obj/item/ammo_box/magazine/hmg/a762x59
+	name = "7.62x59mm box magazine"
+	desc = "A box magazine for heavy machineguns."
+	ammo_type = /obj/item/ammo_casing/a762x59
+	caliber = "a762x59"
+	max_ammo = 50
+	multiload = 1
+	icon_state = "762x59box"
+
+/obj/item/ammo_box/magazine/hmg/a303
+	name = ".303 box magazine"
+	desc = "A box magazine for heavy machineguns."
+	ammo_type = /obj/item/ammo_casing/a303
+	caliber = "a303"
+	max_ammo = 40
+	multiload = 1
+	icon_state = "303strip"
