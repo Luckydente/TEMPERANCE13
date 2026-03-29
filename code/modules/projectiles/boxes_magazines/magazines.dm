@@ -26,7 +26,7 @@
 	caliber = "a45acp"
 	max_ammo = 7
 	multiload = 1
-	icon_state = "coltmag"
+	icon_state = "colt-mag"
 
 /obj/item/ammo_box/magazine/luger
     name = "KRL magazine"
@@ -36,4 +36,4 @@
     caliber = "a9mm"
     max_ammo = 8
     multiload = 1
-    icon_state = "lugermag"
+    icon_state = "luger-mag"
