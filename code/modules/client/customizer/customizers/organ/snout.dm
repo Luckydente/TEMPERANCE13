@@ -150,6 +150,7 @@
 		/datum/sprite_accessory/snout/otiesmile,
 		/datum/sprite_accessory/snout/husky,
 		/datum/sprite_accessory/snout/front/husky,
+		/datum/sprite_accessory/snout/skulldog,
 		/datum/sprite_accessory/snout/hanubus,
 		/datum/sprite_accessory/snout/hjackal,
 		/datum/sprite_accessory/snout/hspots,
