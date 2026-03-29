@@ -47,7 +47,7 @@
 
 /datum/supply_pack/rogue/firearms/artyluger
 	name = "KR 'Preacher'"
-	cost = 160
+	cost = 180
 	contains = list(
 					/obj/item/gun/ballistic/pistol/artyluger,
 				)
