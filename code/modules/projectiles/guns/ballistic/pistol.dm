@@ -149,7 +149,7 @@
 	semi_auto = TRUE
 
 /obj/item/gun/ballistic/pistol/offiseroluger
-	name = "KR 'Order'"
+	name = "KR 'Galinha'"
 	desc = "In the war between the Ziggurate and the Perserdun Empire, Kings row supplies both sides, as long as both agree to leave them out of the mess, this pistol is a product of those supplies, having been made specifically for high ranking Offiseros."
 	icon_state = "luger"
 	item_state = "luger"
