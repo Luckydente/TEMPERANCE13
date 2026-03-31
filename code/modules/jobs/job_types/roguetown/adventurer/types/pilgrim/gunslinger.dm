@@ -34,7 +34,7 @@
 			backpack_contents = list(
 				/obj/item/flashlight/flare/torch = 1,
 				/obj/item/lockpick = 1, 
-				/obj/item/rogueweapon/mace/cudgel = 1,
+				/obj/item/rogueweapon/mace/cudgel = 1, // it's a shame I can't get billy clubs in here, but this is the next best thing
 				/obj/item/lockpickring/mundane = 1,
 				/obj/item/ammo_box/speedloader/magnum = 3,
 				)
