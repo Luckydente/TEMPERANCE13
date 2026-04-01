@@ -5489,17 +5489,6 @@
 	},
 /turf/open/floor/rogue/cobble,
 /area/rogue/outdoors)
-"Jz" = (
-/obj/structure/rack/rogue/shelf/biggest,
-/obj/item/mg_disassembled/m2,
-/obj/item/mg_tripod/m2,
-/obj/item/ammo_box/magazine/hmg/a50d,
-/obj/item/ammo_box/magazine/hmg/a50d,
-/obj/item/ammo_box/magazine/hmg/a50d,
-/obj/item/ammo_box/magazine/hmg/a50d,
-/obj/item/ammo_box/magazine/hmg/a50d,
-/turf/open/floor/rogue/brown,
-/area/rogue/indoors/shelter/town)
 "JC" = (
 /turf/closed/mineral/rogue/iron,
 /area/rogue/under/cave)
@@ -7079,6 +7068,17 @@
 /obj/item/scomstone/kingsrow,
 /obj/item/scomstone/kingsrow,
 /obj/item/scomstone/kingsrow,
+/obj/item/mg_disassembled/m2,
+/obj/item/mg_tripod/m2,
+/obj/item/storage/backpack/rogue/backpack/mg,
+/obj/item/ammo_box/magazine/hmg/a50d,
+/obj/item/ammo_box/magazine/hmg/a50d,
+/obj/item/ammo_box/magazine/hmg/a50d,
+/obj/item/ammo_box/magazine/hmg/a50d,
+/obj/item/ammo_box/magazine/hmg/a50d,
+/obj/item/ammo_box/magazine/hmg/a50d,
+/obj/item/ammo_box/magazine/hmg/a50d,
+/obj/item/ammo_box/magazine/hmg/a50d,
 /turf/open/floor/rogue/brown,
 /area/rogue/indoors/shelter/town)
 "SL" = (
