@@ -163,7 +163,7 @@
     slowdown = 0.15
     spread = 0.5
     force = 15 
-	pump_sound = 'sound/combat/ranged/pistol_cock.ogg'
+    pump_sound = 'sound/combat/ranged/pistol_cock.ogg'
     fire_sound = PISTOLSHOT
     load_sound = 'sound/combat/ranged/pistol_magin.ogg'
     eject_sound = 'sound/combat/ranged/pistol_magout.ogg'
@@ -181,7 +181,7 @@
     slowdown = 0.15
     spread = 0.5
     force = 15 
-	pump_sound = 'sound/combat/ranged/pistol_cock.ogg'
+    pump_sound = 'sound/combat/ranged/pistol_cock.ogg'
     fire_sound = PISTOLSHOT
     load_sound = 'sound/combat/ranged/pistol_magin.ogg'
     eject_sound = 'sound/combat/ranged/pistol_magout.ogg'
@@ -199,7 +199,7 @@
     slowdown = 0.2
     spread = 0.5
     force = 30 //it has a fat fucking stock lemme smack a motherfucker with it
-	pump_sound = 'sound/combat/ranged/pistol_cock.ogg'
+    pump_sound = 'sound/combat/ranged/pistol_cock.ogg'
     fire_sound = PISTOLSHOT
     load_sound = 'sound/combat/ranged/pistol_magin.ogg'
     eject_sound = 'sound/combat/ranged/pistol_magout.ogg'
