@@ -36,7 +36,7 @@
 	spawnableAtoms = list(/obj/item/natural/stone = 5, /obj/effect/mine/explosive = 2)
 	allowed_areas = list(/area/rogue/outdoors/beach/forest/south)
 
-/datum/mapGeneratormodule/kingsrowsnow
+/datum/mapGeneratorModule/kingsrowsnow
 	clusterCheckFlags = CLUSTER_CHECK_SAME_ATOMS
 	allowed_turfs = list(/turf/open/floor/rogue/snow, /turf/open/floor/rogue/snowpatchy, /turf/open/floor/rogue/snowrough)
 	spawnableAtoms = list(/obj/structure/flora/roguegrass = 20, 
