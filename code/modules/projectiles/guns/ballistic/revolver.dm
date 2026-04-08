@@ -192,8 +192,8 @@
 	slot_flags = ITEM_SLOT_HIP
 
 /obj/item/gun/ballistic/revolver/judge
-	name = "TYK 'Judge' Revolving Shotgun"
-	desc = "A shotgun-revolver hybrid. Usually used by national guards or gamesmen."
+	name = "TYK 'Judge' Revolving Rifle"
+	desc = "A rifle-revolver hybrid. Typically used by national guardsmen or game hunters."
 	w_class = WEIGHT_CLASS_SMALL
 	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/judge
 	force = 30 //fat stock
