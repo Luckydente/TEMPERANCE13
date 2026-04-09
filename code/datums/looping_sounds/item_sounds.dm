@@ -22,7 +22,8 @@
 	start_length = 10
 	mid_sounds = list('sound/items/fuseburn.ogg')
 	mid_length = 90
-	volume = 80
+	volume = 100
+	extra_range = 4
 
 /datum/looping_sound/boneloop
 	mid_sounds = list('sound/vo/mobs/ghost/skullpile_loop.ogg')
