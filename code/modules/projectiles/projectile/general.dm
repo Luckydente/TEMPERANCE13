@@ -41,6 +41,11 @@
     damage = 50
     armor_penetration = 30
 
+/obj/projectile/bullet/a30l6
+	name = ".30 light bullet"
+	icon_state = "bullet_proj"
+	damage = 35
+
 // shotgun
 
 /obj/projectile/bullet/shotgun_slug
