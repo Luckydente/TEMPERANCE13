@@ -100,7 +100,7 @@
 
 /obj/item/gun/ballistic/heavy_mg/afterattack(atom/A, mob/user)
 	if(check_direction(user, A))
-		update_pixels()
+		update_pixels(user)
 		return ..() //fire gun
 	else
 		rotate_to(user, A)
