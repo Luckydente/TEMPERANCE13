@@ -74,7 +74,7 @@
 				)
 
 /datum/supply_pack/rogue/firearms/levershotgun
-	name = "M&C 'Hare' Lever Action Shotgun"
+	name = "MNZ 'Hare' Lever Action Shotgun"
 	cost = 160 //not a t3 weapon but still pretty expensive because of the ammo capacity and the fact that it's a shotgun
 	contains = list(
 					/obj/item/gun/ballistic/shotgun/levershotgun,
@@ -85,4 +85,11 @@
 	cost = 80
 	contains = list(
 					/obj/item/gun/ballistic/rifle/repeater/enfield,
+				)
+
+/datum/supply_pack/rogue/firearms/mercy
+	name = "LC 'Mercy' Revolver"
+	cost = 90
+	contains = list(
+					/obj/item/gun/ballistic/rifle/repeater/risvocarb,
 				)

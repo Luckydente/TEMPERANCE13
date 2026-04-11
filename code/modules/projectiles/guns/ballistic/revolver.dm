@@ -210,7 +210,7 @@
 	slot_flags = ITEM_SLOT_BACK
 
 /obj/item/gun/ballistic/revolver/mercy
-	name = "'Mercy' Low Caliber Revolver"
+	name = "LC 'Mercy' Revolver"
 	desc = "A low-caliber revolver, at least it has 8 rounds in the chamber over six. Probably not gonna kill anything, unless you put it up against someone's head."
 	w_class = WEIGHT_CLASS_SMALL
 	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/mercy
