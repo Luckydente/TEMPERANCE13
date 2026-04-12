@@ -203,7 +203,6 @@ GLOBAL_LIST_INIT(risvon_positions, list(
 	"Bastiono",
 	"Armilteknikisto",
 	"Municioteknikisto",
-	"Servisto",
 	"Curacisto",
 	"Camp Follower",
 	"Consulo",
