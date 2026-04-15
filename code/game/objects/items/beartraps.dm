@@ -17,7 +17,7 @@
 	name = "mantrap"
 	gender = NEUTER
 	throw_speed = 1
-	throw_range = 1
+	throw_range = 3
 	icon_state = "beartrap"
 	desc = "A crude and rusty spring trap, used to snare interlopers, or prey on a hunt. Looks almost like falling apart."
 	var/rusty = TRUE // Is it an old trap? Will most likely be destroyed if not handled right

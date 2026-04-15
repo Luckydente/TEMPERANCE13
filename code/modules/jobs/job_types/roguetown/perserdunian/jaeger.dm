@@ -40,7 +40,7 @@
 	armor = /obj/item/clothing/suit/roguetown/armor/leather/heavy/jacket
 	cloak = /obj/item/clothing/cloak/perserduntrenchcoat
 	pants = /obj/item/clothing/under/roguetown/trou/artipants
-	head = /obj/item/clothing/head/roguetown/helmet/leather/flamer
+	head = /obj/item/clothing/head/roguetown/roguehood/shalal/heavyhood
 	mask = /obj/item/clothing/mask/rogue/gasmask/perserdunmask
 	belt = /obj/item/storage/belt/rogue/leather/black/soldier
 	beltl = /obj/item/flashlight/flare/torch/lantern
@@ -77,6 +77,7 @@
 	H.adjust_skillrank(/datum/skill/craft/armorsmithing, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/sewing, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/sneaking, 4, TRUE)
+	H.adjust_skillrank(/datum/skill/craft/trapmaking, 6, TRUE) //lets them open up beartraps at a 100% chance instead of the default 10%-20% success chance
 	H.change_stat("endurance", 2)
 	H.change_stat("perception", 3)
 	H.change_stat("speed", 2)
