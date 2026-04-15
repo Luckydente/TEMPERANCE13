@@ -8,7 +8,7 @@
 	icon_state = "handcuff"
 	flags_1 = CONDUCT_1
 	throwforce = 0
-	w_class = WEIGHT_CLASS_NORMAL
+	w_class = WEIGHT_CLASS_SMALL
 	slowdown = 7
 	breakouttime = 30 SECONDS
 
@@ -93,12 +93,12 @@
 	..()
 
 /obj/item/restraints/legcuffs/beartrap/armed
-	w_class = WEIGHT_CLASS_BULKY
+	w_class = WEIGHT_CLASS_SMALL
 	armed = TRUE
 	anchored = TRUE // Pre mapped traps (bad mapping btw, don't) start anchored
 
 /obj/item/restraints/legcuffs/beartrap/armed/camouflage
-	w_class = WEIGHT_CLASS_BULKY
+	w_class = WEIGHT_CLASS_SMALL
 	armed = TRUE
 	alpha = 80
 
@@ -123,7 +123,7 @@
 			if(prob(50))
 				armed = !armed
 				if(armed)
-					w_class = WEIGHT_CLASS_BULKY
+					w_class = WEIGHT_CLASS_SMALL
 				else
 					w_class = initial(w_class)
 				update_icon()

@@ -215,6 +215,7 @@
 #define KNIGHTCOMMANDER (1<<2) //better armor + sawn down lever-action & a sword
 #define AUXILIARIST	(1<<3) //support role - same w/ servico
 #define ARMSMAN	(1<<4) //standard soldier w/ a rifle
+#define JAEGER (1<<5) //trapper
 #define ROOK (1<<5) // terdun machine gunner
 #define AMMOSQUIRE (1<<6) // terdun ammo bearer
 #define CHIRURGEON (1<<7)
@@ -273,6 +274,7 @@
 #define JDO_KNIGHTCOMMANDER 1.2
 #define JDO_AUXILIARIST 1.3
 #define JDO_ARMSMAN 1.4
+#define JDO_JAEGER 1.41	
 #define JDO_ROOK 1.5
 #define JDO_AMMOSQUIRE 1.6
 #define JDO_CHIRURGEON 1.7
@@ -311,6 +313,7 @@
 	/datum/job/roguetown/knightcommander,\
 	/datum/job/roguetown/auxiliar,\
 	/datum/job/roguetown/armsman,\
+	/datum/job/roguetown/jaeger,\
 	/datum/job/roguetown/chirurgeon,\
 	/datum/job/roguetown/partisan,\
 	/datum/job/roguetown/envoy
