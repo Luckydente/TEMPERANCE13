@@ -9,6 +9,7 @@
 	charging_slowdown = 2
 	chargedloop = /datum/looping_sound/invokeradio
 	associated_skill = /datum/skill/magic/arcane
+	req_items = list(/obj/item/clothing/head/roguetown/paddedcap/radio, /obj/item/storage/backpack/rogue/satchel/radiopack)
 	overlay_state = "repulse"
 	spell_tier = 2
 	invocation = "FORM RANKS AROUND ME!"
@@ -38,6 +39,7 @@
 	charging_slowdown = 2
 	chargedloop = /datum/looping_sound/invokeradio
 	associated_skill = /datum/skill/magic/arcane
+	req_items = list(/obj/item/clothing/head/roguetown/paddedcap/radio, /obj/item/storage/backpack/rogue/satchel/radiopack)
 	overlay_state = "repulse"
 	spell_tier = 2
 	invocation = "TAKE AIM!"
@@ -67,6 +69,7 @@
 	charging_slowdown = 2
 	chargedloop = /datum/looping_sound/invokeradio
 	associated_skill = /datum/skill/magic/arcane
+	req_items = list(/obj/item/clothing/head/roguetown/paddedcap/radio, /obj/item/storage/backpack/rogue/satchel/radiopack)
 	overlay_state = "repulse"
 	spell_tier = 2
 	invocation = "OVER THE TOP, CHAAAAAAAAARGE!!"

@@ -9,6 +9,7 @@
 	chargetime = 25
 	recharge_time = 5 SECONDS
 	warnie = "spellwarning"
+	req_items = list(/obj/item/clothing/head/roguetown/paddedcap/radio, /obj/item/storage/backpack/rogue/satchel/radiopack)
 	no_early_release = TRUE
 	movement_interrupt = FALSE
 	charging_slowdown = 2
