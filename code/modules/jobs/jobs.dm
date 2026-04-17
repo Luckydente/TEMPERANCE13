@@ -183,6 +183,7 @@ GLOBAL_LIST_INIT(test_positions, list(
 GLOBAL_LIST_INIT(perserdun_positions, list(
 	"Grandmaster",
 	"Grand Knight",
+	"War Priest",
 	"Knight Commander",
 	"Armsman",
 	"Blackguard",
@@ -203,8 +204,8 @@ GLOBAL_LIST_INIT(risvon_positions, list(
 	"Soldato",
 	"Magiisto",
 	"Bastiono",
-	"Armilteknikisto",
-	"Municioteknikisto",
+	"Pafanto",
+	"Mulo",
 	"Curacisto",
 	"Camp Follower",
 	"Consulo",
