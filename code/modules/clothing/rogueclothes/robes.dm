@@ -111,7 +111,11 @@
 	slot_flags = ITEM_SLOT_ARMOR|ITEM_SLOT_SHIRT
 	armor = ARMOR_PADDED	//Equal to gamby
 
-/obj/item/clothing/suit/roguetown/shirt/robe/warpriest/proc/update_bloodied()
+/obj/item/clothing/suit/roguetown/shirt/robe/warpriest/Initialize()
+	. = ..()
+	RegisterSignal(src, COMSIG_COMPONENT_CLEAN_ACT, PROC_REF(on_clean))
+
+/obj/item/clothing/proc/update_bloodied()
 	if(ishuman(loc))
 		var/mob/living/carbon/human/H = loc
 		if((H.wear_armor == src || H.wear_shirt == src) && HAS_TRAIT(H, TRAIT_RABCHOSEN))
@@ -137,6 +141,9 @@
 /obj/item/clothing/suit/roguetown/shirt/robe/warpriest/add_blood_DNA(list/dna)
 	. = ..()
 	update_bloodied()
+
+/obj/item/clothing/suit/roguetown/shirt/robe/warpriest/proc/on_clean(datum/source, clean)
+	addtimer(CALLBACK(src, PROC_REF(update_bloodied)), 1)
 
 /obj/item/clothing/suit/roguetown/shirt/robe/monk
 	name = "monk vestments"
