@@ -214,13 +214,14 @@
 #define GRANDKNIGHT (1<<1) // heaviest armor in the game - very tanky - melee only - consider adding a shield
 #define KNIGHTCOMMANDER (1<<2) //better armor + sawn down lever-action & a sword
 #define AUXILIARIST	(1<<3) //support role - same w/ servico
-#define BLACKGUARD (1<<4) //trench raider - specialized in close combat
-#define ARMSMAN	(1<<5) //standard soldier w/ a rifle
-#define ROOK (1<<6) // terdun machine gunner
-#define AMMOSQUIRE (1<<7) // terdun ammo bearer
-#define CHIRURGEON (1<<8)
-#define PARTISAN (1<<9)
-#define ENVOY (1<<10)
+#define BLACKGUARD (1<<3.2) //trench raider - specialized in close combat
+#define ARMSMAN	(1<<4) //standard soldier w/ a rifle
+#define ROOK (1<<5) // terdun machine gunner
+#define AMMOSQUIRE (1<<6) // terdun ammo bearer
+#define CHIRURGEON (1<<7)
+#define PARTISAN (1<<8)
+#define ENVOY (1<<9)
+#define RADIOTROOPER (1<<10)
 
 #define RISVON	(1<<13)
 
@@ -236,6 +237,7 @@
 #define CURACISTO (1<<9)
 #define CAMPFOLLOWER (1<<10)
 #define CONSULO (1<<11)
+#define FLAMSOLDATO (1<<12)
 
 #define KINGSROW (1<<14)
 
@@ -280,6 +282,7 @@
 #define JDO_CHIRURGEON 1.7
 #define JDO_PARTISAN 1.8
 #define JDO_ENVOY 1.82
+#define JDO_RADIOTROOPER 1.83
 
 // RISVON
 #define JDO_COMMANDANT 1.9
@@ -294,6 +297,7 @@
 #define JDO_CURACISTO 2.8
 #define JDO_CAMPFOLLOWER 2.9
 #define JDO_CONSULO 2.10
+#define JDO_FLAMSOLDATO 2.11
 
 // KINGSROW
 #define JDO_HIERARCH 3
