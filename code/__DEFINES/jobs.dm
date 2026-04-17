@@ -212,15 +212,16 @@
 
 #define GRANDMASTER	(1<<0) // no-armor leadership wimp w/ drip
 #define GRANDKNIGHT (1<<1) // heaviest armor in the game - very tanky - melee only - consider adding a shield
-#define KNIGHTCOMMANDER (1<<2) //better armor + sawn down lever-action & a sword
-#define AUXILIARIST	(1<<3) //support role - same w/ servico
-#define ARMSMAN	(1<<4) //standard soldier w/ a rifle
-#define ROOK (1<<5) // terdun machine gunner
-#define AMMOSQUIRE (1<<6) // terdun ammo bearer
-#define CHIRURGEON (1<<7)
-#define PARTISAN (1<<8)
-#define ENVOY (1<<9)
-#define RADIOTROOPER (1<<10)
+#define WARPRIEST (1<<2) // rab worshipper support role, uses blood magic, has a few offensive spells with a few support ones too
+#define KNIGHTCOMMANDER (1<<3) //better armor + sawn down lever-action & a sword
+#define AUXILIARIST	(1<<4) //support role - same w/ servico
+#define ARMSMAN	(1<<5) //standard soldier w/ a rifle
+#define ROOK (1<<6) // terdun machine gunner
+#define AMMOSQUIRE (1<<7) // terdun ammo bearer
+#define CHIRURGEON (1<<8)
+#define PARTISAN (1<<9)
+#define ENVOY (1<<10)
+#define RADIOTROOPER (1<<11)
 
 #define RISVON	(1<<13)
 
@@ -272,30 +273,31 @@
 // PERSERDUN
 #define JDO_GRANDMASTER 1
 #define JDO_GRANDKNIGHT 1.1
-#define JDO_KNIGHTCOMMANDER 1.2
-#define JDO_AUXILIARIST 1.3
-#define JDO_ARMSMAN 1.4
-#define JDO_ROOK 1.5
-#define JDO_AMMOSQUIRE 1.6
-#define JDO_CHIRURGEON 1.7
-#define JDO_PARTISAN 1.8
-#define JDO_ENVOY 1.82
-#define JDO_RADIOTROOPER 1.83
+#define JDO_WARPRIEST 1.2
+#define JDO_KNIGHTCOMMANDER 1.3
+#define JDO_AUXILIARIST 1.4
+#define JDO_ARMSMAN 1.5
+#define JDO_ROOK 1.6
+#define JDO_AMMOSQUIRE 1.7
+#define JDO_CHIRURGEON 1.8
+#define JDO_PARTISAN 1.9
+#define JDO_ENVOY 1.92
+#define JDO_RADIOTROOPER 1.93
 
 // RISVON
-#define JDO_COMMANDANT 1.9
-#define JDO_OFICIRO 2.0
-#define JDO_KASPAFISTO 2.1
-#define JDO_VETERANO 2.2
-#define JDO_SOLDATO 2.3
-#define JDO_PAFANTO 2.4
-#define JDO_MULO 2.5
-#define JDO_TUORO 2.6
-#define JDO_SERVISTO 2.7
-#define JDO_CURACISTO 2.8
-#define JDO_CAMPFOLLOWER 2.9
-#define JDO_CONSULO 2.10
-#define JDO_FLAMSOLDATO 2.11
+#define JDO_COMMANDANT 2.0
+#define JDO_OFICIRO 2.1
+#define JDO_KASPAFISTO 2.2
+#define JDO_VETERANO 2.3
+#define JDO_SOLDATO 2.4
+#define JDO_PAFANTO 2.5
+#define JDO_MULO 2.6
+#define JDO_TUORO 2.7
+#define JDO_SERVISTO 2.8
+#define JDO_CURACISTO 2.9
+#define JDO_CAMPFOLLOWER 2.10
+#define JDO_CONSULO 2.11
+#define JDO_FLAMSOLDATO 2.12
 
 // KINGSROW
 #define JDO_HIERARCH 3
@@ -311,6 +313,7 @@
 
 #define PERSERDUN_ROLES \
 	/datum/job/roguetown/grandmaster,\
+	/datum/job/roguetown/warpriest,\
 	/datum/job/roguetown/grandknight,\
 	/datum/job/roguetown/knightcommander,\
 	/datum/job/roguetown/auxiliar,\
