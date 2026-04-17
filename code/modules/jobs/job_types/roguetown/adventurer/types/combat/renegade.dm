@@ -11,12 +11,12 @@
 	classes = list("Perpretrator" = "In all honesty, you're probably a criminal. You have a double-barreled shotgun.",
 					"Desperado" = "You might just be a bandit, or a cowboy lover. You carry a mass-produced revolver.",
 					"Gangster" = "You're probably from a gang. Or, you happened to kill whoever held the pistol before you. Make some money, grab some guns. Try not to die.",
-					"Poacher" = "You know how to track, and you know how to shoot. You might be a poacher, or maybe you just like guns. Either way, you carry a sawn-off lever-action rifle.")
+					"Poacher" = "You know how to track, and you know how to shoot. You might be a poacher, or maybe you just like guns and shot someone's cow. Either way, you carry a sawn-off lever-action rifle.")
 
 /datum/outfit/job/roguetown/adventurer/renegade/pre_equip(mob/living/carbon/human/H)
 	..()
 	H.adjust_blindness(-3)
-	var/classes = list("Perpretrator","Desperado","Gangster")
+	var/classes = list("Perpretrator","Desperado","Gangster","Poacher")
 	var/classchoice = input("Choose your archetypes", "Available archetypes") as anything in classes
 
 	switch(classchoice)
@@ -157,7 +157,7 @@
 			H.dna.species.soundpack_m = new /datum/voicepack/male/renegade()
 
 		if("Poacher")
-			to_chat(H, span_warning("You know how to track, and you know how to shoot. You might be a poacher, or maybe you just like guns. Either way, you carry a sawn-off lever-action rifle."))
+			to_chat(H, span_warning("You know how to track, and you know how to shoot. You might be a poacher, or maybe you just like guns and shot someone's cow. Either way, you carry a sawn-off lever-action rifle."))
 			armor = /obj/item/clothing/suit/roguetown/armor/leather
 			backl = /obj/item/storage/backpack/rogue/satchel
 			backr = /obj/item/gun/ballistic/rifle/repeater/leverleg
