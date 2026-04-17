@@ -163,7 +163,7 @@
 	releasedrain = 30
 	chargedrain = 1
 	chargetime = 15
-	recharge_time = 30 SECONDS
+	recharge_time = 20 SECONDS
 	warnie = "spellwarning"
 	no_early_release = TRUE
 	movement_interrupt = FALSE
@@ -230,7 +230,7 @@
 	releasedrain = 30
 	chargedrain = 1
 	chargetime = 25
-	recharge_time = 50 SECONDS
+	recharge_time = 40 SECONDS
 	warnie = "spellwarning"
 	no_early_release = TRUE
 	movement_interrupt = FALSE
