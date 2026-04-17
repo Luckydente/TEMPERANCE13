@@ -67,7 +67,7 @@
 	desc = "A needle made of hardened blood, extending from my fingertips. The 'thread' is just fine strands of thick, firm blood."
 	icon = 'icons/roguetown/items/misc.dmi'
 	lefthand_file = 'icons/mob/inhands/items_lefthand.dmi'
-	righthand_file = 'icons/mob/inhands/items_righthand.dmi'
+	righthand_file = 'icons/mob/inhands/items_righthand.dmi'	
 	icon_state = "needle"
 	catchphrase = null
 	on_use_sound = 'sound/magic/blood_needle_use.ogg'
