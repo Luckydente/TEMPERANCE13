@@ -5968,11 +5968,11 @@
 "Vx" = (
 /obj/structure/rack/rogue/shelf/biggest,
 /obj/machinery/light/rogue/wallfire/candle,
-/obj/item/gun/ballistic/rifle/repeater/springfield,
-/obj/item/gun/ballistic/rifle/repeater/springfield{
+/obj/item/gun/ballistic/rifle/repeater/pistol,
+/obj/item/gun/ballistic/rifle/repeater/pistol{
 	pixel_y = 8
 	},
-/obj/item/gun/ballistic/rifle/repeater/springfield{
+/obj/item/gun/ballistic/rifle/repeater/pistol{
 	pixel_y = -8
 	},
 /turf/open/floor/rogue/risvon,
