@@ -46,10 +46,10 @@
 			conditional_buff = TRUE
 			situational_bonus = min(situational_bonus, 5)
 
-		var/healing = 2.5
+		var/bloodhealing = 2.5
 		if (conditional_buff)
 			to_chat(user, "Manipulating blood is easier in these conditions!")
-			healing += situational_bonus
+			bloodhealing += situational_bonus
 
 		if(ishuman(target))
 			var/mob/living/carbon/human/H = target

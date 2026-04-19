@@ -32,3 +32,7 @@
 		if(wCount.len > 0)
 			owner.heal_wounds(healing_on_tick)
 			owner.update_damage_overlays()
+
+/datum/status_effect/buff/bloodhealing/on_remove()
+	owner.remove_filter(BLOOD_HEALING_FILTER)
+	owner.update_damage_hud()
