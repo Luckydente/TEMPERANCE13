@@ -338,7 +338,7 @@
 	spread = 2
 
 /turf/closed/mineral/rogue/bedrock
-	name = "rock"
+	name = "bedrock"
 	desc = "Seems barren and nigh-indestructable"
 	icon_state = "rockyashbed"
 //	smooth_icon = 'icons/turf/walls/hardrock.dmi'
@@ -359,3 +359,19 @@
 /turf/closed/mineral/rogue/bedrock/Melt()
 	to_be_destroyed = FALSE
 	return src
+
+/turf/closed/mineral/rogue/soft
+	name = "soft rock"
+	desc = "A piece of sedimentary rock. It yields nicely to your pick."
+	mineralAmt = 0
+	max_integrity = 150 //When using rclick with an iron pick this will take 2 hits (~8seconds)
+
+/turf/closed/mineral/rogue/med
+	name = "rock"
+	desc = "A chunk of stone. It'll take some time to carve through."
+	max_integrity = 250 //When using rclick with an iron pick this will take 3 hits (~12seconds)
+
+/turf/closed/mineral/rogue/hard
+	name = "hard rock"
+	desc = "A deposit of metamorphic rock. Are you sure you want to take the time to mine this way?"
+	max_integrity = 300 //When using rclick with an iron pick this will take 4 hits (~16seconds)
