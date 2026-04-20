@@ -569,7 +569,11 @@ var/global/list/pridelist = list(
 
 var/list/risvon_colors = list(
 	"RISVONITE RED"="#732020", //Not gonna lie the default red works fine for Risvon, but here's a little darker one to prevent people from being too bright.
-   	"CONSCRIPTS LEATHER"="#7c6d5c", //Same as Dirt in the extra color list. Works shockingly well to match their tabard.
+   	"CONSCRIPTS LEATHER"="#7c6d5c", //Same as DIRT in the extra color list. Works shockingly well to match their tabard.
+	"AUTUMN FOREST"="#df8405",	//Same as global ORANGE
+	"FORGOTTEN SUN"="#ffcd43", //Same as global YELLOW
+	"ERROR: PRINTER FAILURE"="#962e5c"	//Same as global MAGENTA
+	"FERTILE SOIL"="#61462c", 	//Same as global BROWN
 	)
 
 /obj/machinery/gear_painter_nocolorwheel/risvon/Initialize()
@@ -583,6 +587,10 @@ var/list/risvon_colors = list(
 var/list/persurdun_colors = list(
 	"PERSURDUNIAN BLUE"="#58617C", //Desaturated Blue
 	"ZEALOTS WOAD"="#252547", //Same as the blue on the war priests robes
+	"NOBLE RETINUE"="#8747b1", //Same as global PURPLE
+	"LEECHES CREED"="#173266", //Same as global BLUE
+	"FORGOTTEN SKY"="#249589", //Same as global TEAL
+	"SUMMER FOREST"="#264d26", //Same as global GREEN
 	)
 
 /obj/machinery/gear_painter_nocolorwheel/persurdun/Initialize()
